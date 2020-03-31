@@ -1,0 +1,11 @@
+{
+  "packagers": {
+    "*.css": "@parcel/packager-css"
+  },
+  "optimizers": {
+    "*.js": ["@parcel/optimizer-uglify"],
+    "*.css": ["@parcel/optimizer-csso"],
+    "*.html": ["@parcel/optimizer-htmlnano"],
+    "*.{png,jpg,jpeg,svg,...}": ["@parcel/optimizer-imagemin"]
+  },
+}
