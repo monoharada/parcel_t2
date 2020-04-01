@@ -21,6 +21,7 @@
     "postcss-modules": "^1.5.0",
     "postcss-short": "^5.0.0",
     "postcss-sorting": "^5.0.1",
+    "prettier": "^2.0.2",
     "pug": "^2.0.4",
     "rexreplace": "^5.2.1",
     "sass": "^1.26.3",
